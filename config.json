@@ -37,5 +37,5 @@
                 "password": "student"
         }
     ],
-    navigation_panel:'top'
+    menu_location:'top'
 }
