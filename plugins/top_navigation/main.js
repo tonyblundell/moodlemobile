@@ -19,6 +19,20 @@ define(templates, function(navigationTpl) {
         isVisible: false,
 
         render:function(panel, values) {
+            // Prepare info for loading main menu.
+            values = {
+                user: {
+                    fullname: MM.site.get('fullname'),
+                    profileimageurl: MM.site.get('userpictureurl')
+                },
+                siteurl: MM.site.get('siteurl'),
+                plugins: _.compact(
+                    _.map(MM.getConfig('menu_items'), function(item) {
+                        return MM.plugins[item].settings;
+                    })
+                )
+            };
+
             var output = MM.tpl.render(
                 navigationTpl, values
             );

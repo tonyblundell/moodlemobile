@@ -45,11 +45,7 @@
                 "password": "student"
         }
     ],
-    menu_location:'top',
-    menu_type:'top_navigation',
-    menu_items:[
-        "upload",
-        "contents",
-        "participants"
-    ]
+    "menu_location":"top",
+    "menu_type":"top_navigation",
+    "menu_items":["upload","contents","participants"]
 }
