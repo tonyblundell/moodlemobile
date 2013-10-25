@@ -22,6 +22,7 @@
 "city": "City",
 "close": "Close",
 "completed": "Completed",
+"connectionwarningmessage":"Warning: device has lost internet connection",
 "contact": "Contact",
 "contactadd": "Contact added to your phone contacts list",
 "content": "Content",
